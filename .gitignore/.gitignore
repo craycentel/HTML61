@@ -1,0 +1,6 @@
+echo "# HTML61" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/craycentel/HTML61.git
+git push -u origin master
