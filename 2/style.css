@@ -1,0 +1,62 @@
+.areaA{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #E87C0C;
+	margin-top: 200px;
+	text-align: center;
+	border: 1px solid #181818;
+	font-size: 40px;
+}
+.while{	
+	width: 100px;
+	height: 100px;
+	background-color: #FFE522;
+}
+.black{
+	width: 100px;
+	height: 100px;
+	background-color: #0D5FFF;
+}
+.wrapNumberFirst{
+	text-align: center;
+}
+.wrapNumberLast{
+	text-align: center;
+	margin-left: 900px; 
+	margin-top: -1000px; 
+}
+.wrapA{
+	margin-left: 100px; 
+	margin-top: -1000px; 
+	text-align: center;
+}
+.wrapB{
+	margin-left: 200px; 
+	margin-top: -1000px; 
+	text-align: center;
+}
+.wrapC{
+	margin-left: 300px; 
+	margin-top: -1000px; 
+}
+.wrapD{
+	margin-left: 400px; 
+	margin-top: -1000px; 
+}
+.wrapE{
+	margin-left: 500px; 
+	margin-top: -1000px; 
+}
+.wrapF{
+	margin-left: 600px; 
+	margin-top: -1000px; 
+}
+.wrapG{
+	margin-left: 700px; 
+	margin-top: -1000px; 
+}
+.wrapH{
+	margin-left: 800px; 
+	margin-top: -1000px; 
+}
