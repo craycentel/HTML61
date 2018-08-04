@@ -1,0 +1,40 @@
+@media (min-width: 800px) and (max-width: 1200px){
+	body{
+		background-color: green;
+	}
+.left{
+	width: 100%;
+	min-height: 100px;
+	display: none;
+}
+.center{
+	
+	width: 48%;
+	margin:0px 1px; 
+}
+.right{
+	width: 48%;
+	margin:0px 1px; 
+
+}
+}
+
+@media (max-width: 799px)  {
+.left{
+	width: 100%;
+	min-height: 100px;
+	display: block;
+}
+.center{
+	
+	width: 100%;
+	margin:0px 0px; 
+}
+.right{
+	width: 100%;
+	margin:0px 0px; 
+
+}
+
+}
+
