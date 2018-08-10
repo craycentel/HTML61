@@ -1,0 +1,40 @@
+@media (min-width: 800px) and (max-width: 1000px){
+	body{
+		background-color: green;
+	}
+
+}
+
+@media (max-width: 799px)  {
+	body{
+		background-color: blue;
+	}
+.left_sidebar{
+
+display: none;
+}
+
+.header{
+	width: 100%;
+	margin-left: 0%;
+	background-color: orange;
+}
+.right_sidebar{
+
+	width: 100%;
+	margin: 0 32%;
+	margin-left: 0%;
+
+}
+.ref{
+	width: 21%;}
+.img{
+		width: 100%;
+	min-height: 150px;
+		display: none;
+}
+
+
+
+}
+
