@@ -52,9 +52,15 @@ img{
 }
 .contentTop{
 	height: 500px;
-	background-image: url("../img/audiMan3.jpg");
+	background-image: url("../img/audiMan2.jpg");
 	background-attachment: scroll;
 	background-position: 50% 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.baner{
+	max-width: 400px;
+	height: 200px;
+	background: #fff;
+	border: 3px solid red;
 }
