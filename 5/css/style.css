@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 100px;
+	background: #70c570; 
+	background-image: url("../img/r.jpg");
+	background-repeat: repeat-y;
+	background-position: bottom;
+}
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+h1{
+	position: absolute;
+	top: 8px;
+
+}
+h1 a{
+	text-decoration: none;
+	color: #fff; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h1 a span{
+	text-transform: lowercase;
+	font-weight: 400;
+}
+nav{
+	position: absolute;
+	right: 0px;
+	top: 24px;
+	
+}
+nav ul{
+	list-style: none;
+}
+nav >ul >li {
+	float: left;
+	margin: 0px 15px;
+}
+nav ul li a{
+	text-decoration:none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 21px;
+	padding: 7px 15px;
+	border-radius: 8px;
+}
+.active{
+	background: #2f4a2f;
+}
+nav> ul> li> a:hover{
+	background-color: orange;
+}
+.subMenu{
+	background-color: orange;
+	padding: 7px;
+	border-radius: 8px;
+	position: absolute;
+	display: none;
+}
+
+nav> ul> li:hover .subMenu{
+	display: block;
+}
+.subMenu li{
+	background-color: #ff7f00;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+
+.subMenu li:hover {
+	background: #70c570;
+}
+.wrap img{
+	width: 79px;
+	height: 100px;
+	position: absolute;
+	right: 20px;
+	display: none;
+}
+@media (max-width: 920px){
+
+.wrap img{
+	display: block;
+	padding-bottom: 100px;
+}
+nav{
+	display: none;
+	top: 100px;
+	background-color: green;
+}
+.wrap img:hover ~ nav{
+	display: block;
+}
+
+nav >ul >li {
+	float: none;
+	margin: 0px 15px;
+
+}
+nav:hover{
+	display: block;
+
+}
+.subMenu{
+	/*position: static;*/
+	/*position: absolute;*/
+	/*display: none;*/
+	top: 70px;
+	right:150px; 
+}
+
+}
