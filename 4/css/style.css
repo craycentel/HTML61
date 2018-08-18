@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	height: 100px;
+	
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 99%);
+	background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 99%);
+	background: -o-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 99%);
+	background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 99%);
+	background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 99%);
+	padding: 1px;
+}
+.menuLeft{
+	float: left;
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+.nav{
+	margin: 0px auto 0px auto;
+	width: 600px;
+
+}
+img{
+	float: right;
+	width: 150px;
+	height: auto;
+}
+.img{
+	float: right;
+	width: 150px;
+	height: auto;
+}
+.button{
+	color: rgb(120, 120, 120);
+	font-size: 20px;
+	padding: 5px 21px;
+	text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 1px 10px 20px rgba(50, 50, 50, 0.49);
+	-moz-box-shadow:    1px 10px 20px rgba(50, 50, 50, 0.49);
+	box-shadow:         1px 10px 20px rgba(50, 50, 50, 0.49);
+	text-decoration: none;
+	margin: 0px 5px;
+		margin-top: 10px;
+}
+.contentTop{
+	height: 500px;
+	background-image: url("../img/audiMan3.jpg");
+	background-attachment: scroll;
+	background-position: 50% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
